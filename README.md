@@ -1,4 +1,4 @@
-# RailSem19 — Semantic Segmentation & Exploration of Railway Scenes
+# RailSem19 - Semantic Segmentation & Exploration of Railway Scenes
 
 Exploratory analysis and semantic segmentation of the [RailSem19 dataset](https://www.wilddash.cc/railsem19) — 8,500 ego-perspective railway images with pixel-wise annotations across 19 classes. The project combines a pre-trained HRNet model from TensorFlow Hub with LangSAM zero-shot segmentation to explore and evaluate railway scene understanding.
 

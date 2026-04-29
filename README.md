@@ -25,15 +25,6 @@ The dataset contains 19 semantic classes: road, sidewalk, construction, tram-tra
 
 - Python 3.9+
 - TensorFlow 2.x
-- Internet connection (for downloading the HRNet model from TensorFlow Hub)
-
-### Installation
-
-```bash
-git clone https://github.com/Aylin1/Railsem19.git
-cd Railsem19
-pip install -r requirements.txt
-```
 
 ### Dependencies
 

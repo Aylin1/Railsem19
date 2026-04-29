@@ -21,32 +21,6 @@ The pipeline covers data exploration, class distribution analysis, model inferen
 
 The dataset contains 19 semantic classes: road, sidewalk, construction, tram-track, fence, pole, traffic-light, traffic-sign, vegetation, terrain, sky, human, rail-track, car, truck, trackbed, on-rails, rail-raised, and rail-embedded.
 
-## Repository Structure
-
-```
-Railsem19/
-│
-├── explore4.ipynb                        # Main notebook: EDA, HRNet inference,
-│                                         # LangSAM segmentation, IoU evaluation
-│
-├── rs19-config.json                      # Class-to-color mapping configuration
-├── requirements.txt                      # Python dependencies
-└── README.md
-```
-
-### Notebooks Overview
-
-The project originally consisted of several notebooks during development. These have been consolidated into a single clean notebook:
-
-| Original Notebook | Content | Status |
-|---|---|---|
-| `explore4.ipynb` | Full EDA + HRNet inference + LangSAM + class stats | **Kept** (main notebook) |
-| `langSAM_modeling.ipynb` | LangSAM batch inference on RailSem19 subset with IoU | Merged into `explore4` |
-| `langSAM_modeling__1_.ipynb` | Near-duplicate of `langSAM_modeling.ipynb` | Removed (redundant) |
-| `langSAM_modeling_second_dataset.ipynb` | LangSAM on secondary vegetation dataset | Merged into `explore4` |
-
-## Getting Started
-
 ### Prerequisites
 
 - Python 3.9+

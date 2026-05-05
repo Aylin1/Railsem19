@@ -2,8 +2,6 @@
 
 Exploratory analysis and semantic segmentation of the [RailSem19 dataset](https://www.wilddash.cc/railsem19), containing 8,500 ego-perspective railway images with pixel-wise annotations across 19 classes. The project was developed as part of a larger initiative to create a **digital twin of rail infrastructure** for vegetation monitoring, obstacle detection, and maintenance planning. It applies a pre-trained HRNet model from TensorFlow Hub alongside LangSAM zero-shot segmentation to explore and evaluate railway scene understanding.
 
-> University project (team of 4) | M.Sc. Project Management & Data Science, HTW Berlin | CRISP-DM methodology with Agile sprints
-
 ## Project Overview
 
 This project investigates how well existing segmentation models generalize to railway-specific scenes, with a focus on **vegetation segmentation** as part of a digital twin concept for a fictional railroad operator ("United Railroad"). The pipeline performs inference on RailSem19 validation images and compares predictions against the dataset's ground-truth masks using IoU evaluation.

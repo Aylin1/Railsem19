@@ -56,22 +56,6 @@ Railsem19/
 ```
 
 
-## Getting Started
-
-### Prerequisites
-
-- Python 3.9+
-- TensorFlow 2.x
-- Internet connection (for downloading the HRNet model from TensorFlow Hub)
-
-### Installation
-
-```bash
-git clone https://github.com/Aylin1/Railsem19.git
-cd Railsem19
-pip install tensorflow tensorflow-hub torch torchvision segment-geospatial groundingdino-py leafmap localtileserver opencv-python matplotlib numpy pandas Pillow
-```
-
 ### Dataset
 
 The RailSem19 dataset is not included in this repository. You can request access from the official source: [wilddash.cc/railsem19](https://www.wilddash.cc/railsem19)
@@ -82,12 +66,6 @@ Once downloaded, place the data so the folder structure looks like:
 jpgs/rs19_val/         # 8,500 JPEG images
 uint8/rs19_val/        # Corresponding semantic label maps (grayscale)
 rs19-config.json       # Class configuration (included in repo)
-```
-
-### Running
-
-```bash
-jupyter notebook EDA_images.ipynb
 ```
 
 ## Models Used
